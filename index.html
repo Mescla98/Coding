@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mescla Portfolio</title>
-    <script type="module" crossorigin src="/portfolio/assets/index-CpxcE5qP.js"></script>
+    <script type="module" crossorigin src="/portfolio/assets/index-D2JqGSFL.js"></script>
     <link rel="stylesheet" crossorigin href="/portfolio/assets/index-nCJ63O4t.css">
   </head>
   <body>
@@ -40,7 +40,10 @@
     <script>
       function explorePortfolio() {
         document.getElementById('intro').style.display = 'none';
-        window.startBackgroundMusic();
+        bgMusic = k.play("bgMusic", {
+            volume: 0.5,
+            loop: true
+        });
       }
     </script>
   </body>
